@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center" >
+
+	<ImageView
+		android:id="@+id/ownTransaction"
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/type_image_width_height"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:background="@drawable/image_backround"
+		android:src="@drawable/icon_inward" />
+
+	<TextView
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/text_view_height"
+		android:layout_below="@id/ownTransaction"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/text_view_top_margin"
+		android:background="@color/text_view_background"
+		android:gravity="center"
+		android:text="@string/transfer_to_own_account"
+		android:textColor="@color/text_view_text_color"
+		android:textSize="@dimen/text_view_text_size" />
+
+	<ImageView
+		android:id="@+id/otherTransaction"
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/type_image_width_height"
+		android:layout_below="@id/ownTransaction"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:background="@drawable/image_backround"
+		android:src="@drawable/icon_outward" />
+
+	<TextView
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/text_view_height"
+		android:layout_below="@id/otherTransaction"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/text_view_top_margin"
+		android:background="@color/text_view_background"
+		android:gravity="center"
+		android:text="@string/transfer_to_another_account"
+		android:textColor="@color/text_view_text_color"
+		android:textSize="@dimen/text_view_text_size" />
+
+</RelativeLayout>

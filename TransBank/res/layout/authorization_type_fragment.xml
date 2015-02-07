@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center" >
+
+	<ImageView
+		android:id="@+id/pincodeView"
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/type_image_width_height"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:adjustViewBounds="true"
+		android:background="@drawable/image_backround"
+		android:scaleType="fitXY"
+		android:src="@drawable/pincode" />
+
+	<TextView
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/text_view_height"
+		android:layout_below="@id/pincodeView"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/text_view_top_margin"
+		android:background="@color/text_view_background"
+		android:gravity="center"
+		android:text="@string/authorize_by_pin"
+		android:textColor="@color/text_view_text_color"
+		android:textSize="@dimen/text_view_text_size" />
+
+	<ImageView
+		android:id="@+id/fingerprintView"
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/type_image_width_height"
+		android:layout_below="@id/pincodeView"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:adjustViewBounds="true"
+		android:background="@drawable/image_backround"
+		android:scaleType="fitXY"
+		android:src="@drawable/fingerprint" />
+
+	<TextView
+		android:layout_width="@dimen/type_image_width_height"
+		android:layout_height="@dimen/text_view_height"
+		android:layout_below="@id/fingerprintView"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/text_view_top_margin"
+		android:background="@color/text_view_background"
+		android:gravity="center"
+		android:text="@string/authorize_by_scan"
+		android:textColor="@color/text_view_text_color"
+		android:textSize="@dimen/text_view_text_size" />
+
+</RelativeLayout>

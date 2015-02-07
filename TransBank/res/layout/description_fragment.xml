@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:orientation="vertical" >
+
+	<EditText
+		android:id="@+id/descriptionEditText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/top_margin"
+		android:ems="10"
+		android:gravity="bottom|center_horizontal"
+		android:inputType="textMultiLine"
+		android:hint="@string/description_hint"
+		android:lines="4" >
+
+		<requestFocus />
+	</EditText>
+
+	<Button
+		android:id="@+id/doneButton"
+		android:layout_width="@dimen/edit_text_width"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/descriptionEditText"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:text="@string/done_btn" />
+
+</RelativeLayout>

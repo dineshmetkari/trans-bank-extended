@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center" >
+
+	<Spinner
+		android:id="@+id/ownIBAN"
+		android:layout_width="@dimen/edit_text_width"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:spinnerMode="dropdown" />
+
+	<Spinner
+		android:id="@+id/otherIBANspinner"
+		android:layout_width="@dimen/edit_text_width"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/ownIBAN"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:spinnerMode="dropdown" />
+
+	<Button
+		android:id="@+id/doneBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/otherIBANspinner"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/top_margin"
+		android:text="@string/done_btn" />
+
+</RelativeLayout>
