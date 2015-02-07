@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/background"
+	android:orientation="vertical"
+	tools:context="bg.uni_sofia.fmi_si2011.InitTransferActivity" >
+
+	<ImageView
+		android:id="@+id/logo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:adjustViewBounds="true"
+		android:scaleType="fitXY"
+		android:src="@drawable/trans_bank_logo" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="3dp"
+		android:layout_below="@id/logo"
+		android:background="@color/separator_color" >
+	</View>
+
+	<FrameLayout
+		android:id="@+id/container"
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_below="@id/logo"
+		android:layout_gravity="center_horizontal"
+		android:layout_weight="1" >
+	</FrameLayout>
+
+</LinearLayout>

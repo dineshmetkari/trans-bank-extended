@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">TransBank</string>
+	<string name="action_settings">Settings</string>
+	<string name="description">Description</string>
+	<string name="title_activity_autorization">AutorizationActivity</string>
+	<string name="title_activity_finilaze">FinilazeActivity</string>
+	<string name="autorization_fingerprint_hint">Please hold your finger for 3 sec.</string>
+	<string name="done_btn">GO !</string>
+	<string name="pin_hint">Please enter your PIN</string>
+	<string name="wait_msg">Please wait ...</string>
+	<string name="transfer_to_own_account">Transfer to own account</string>
+	<string name="transfer_to_another_account">Transfer to another account</string>
+	<string name="sum_hint">Please enter your sum ...</string>
+	<string name="description_hint">What\'s the transfer purpose ...</string>
+	<string name="iban_hint">Please enter receivers IBAN</string>
+	<string name="authorize_by_pin">Authorize by PIN</string>
+	<string name="authorize_by_scan">Authorize by Scan</string>
+	<string name="please_fill">Please fill all fields !</string>
+	<string name="equal_ibans">IBANs are equal !</string>
+	<string name="receivers_iban">Receivers IBAN: </string>
+	<string name="orderers_iban">Orderers IBAN: </string>
+	<string name="sum">Sum: </string>
+	<string name="description_label">Description: </string>
+	<string name="warning">Warning !</string>
+	<string name="warning_msg">Are you sure you want to go back ? Your progress will be lost !</string>
+
+</resources>
